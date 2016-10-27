@@ -211,6 +211,13 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+	
+	<distributionManagement>
+   <snapshotRepository>
+      <id>maven-releases</id>
+      <url>http://192.168.56.103:8081/repository/maven-releases/</url>
+   </snapshotRepository>
+</distributionManagement>
 
     <repositories>
         <repository>
